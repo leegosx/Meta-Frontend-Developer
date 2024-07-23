@@ -92,3 +92,44 @@ switch(day) {
     default:
         console.log('There is no such day');
  }
+
+
+//  Repetitive tasks with loops
+
+// Task 1
+for (var i = 1; i <= 5; ++i) {
+    console.log(i)
+}
+console.log('Counting completed!')
+
+
+// Task 2
+for (var i = 5; i >= 1; --i) {
+    console.log(i)
+}
+console.log('Countdown finished!')
+
+
+// Task 3
+var counter = 1
+while(counter <= 5) {
+    console.log(counter)
+    counter += 1
+}
+
+
+// Task 4
+var counter = 5
+while (counter >= 1) {
+    console.log(counter)
+    counter -= 1
+}
+console.log('Countdown finished!')
+
+
+// Task 5
+var counter = 2018
+while (counter <= 2022) {
+    console.log(counter)
+    counter += 1
+}
