@@ -111,25 +111,56 @@ console.log('Countdown finished!')
 
 
 // Task 3
-var counter = 1
-while(counter <= 5) {
-    console.log(counter)
-    counter += 1
+var i = 1
+while(i <= 5) {
+    console.log(i)
+    i += 1
 }
 
 
 // Task 4
-var counter = 5
-while (counter >= 1) {
-    console.log(counter)
-    counter -= 1
+var i = 5
+while (i >= 1) {
+    console.log(i)
+    i -= 1
 }
 console.log('Countdown finished!')
 
 
 // Task 5
-var counter = 2018
-while (counter <= 2022) {
-    console.log(counter)
-    counter += 1
+var year = 2018;
+while (year < 2023) {
+    console.log(year);
+    year++;
+};
+
+// Exercise 1
+for (var i = 1; i <= 10; ++i) {
+    if (i === 1) {
+        console.log("Gold medal");
+    } else if (i === 2) {
+        console.log("Silver medal");
+    } else if (i === 3) {
+        console.log("Bronze medal");
+    } else {
+        console.log(i);
+    }
+}
+
+// Exercise 2
+for (var i = 1; i <= 10; ++i) {
+    switch(i){
+        case 1:
+            console.log("Gold medal")
+            break;
+        case 2:
+            console.log("Silver medal")
+            break;
+        case 3:
+            console.log("Bronze medal")
+            break;
+        default:
+            console.log(i)
+            break;
+    }
 }
