@@ -38,6 +38,6 @@
 
 /* Add rules for steps 10 and 11 */
 .letters p:nth-child(odd):hover {
-	transform: rotateX(36deg);
+	transform: rotateX(360deg);
 	transition: 1.5s;
 }
