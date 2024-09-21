@@ -11,109 +11,126 @@
     <meta property="og:url" content="./index.html">
     <meta property="og:type" content="website">
     <!-- End of Open Graph Protocol -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- CSS Modern Normalize -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <section class="header">
-            <div class="header_wrapper">
-                <div class="header_logo">
-                    <img src="./assets/Asset%202@3x.png" 
-                        alt="MANGATA & GALLO"
-                        width="500"
-                        height="80"
-                        >
-                </div>
-                <nav class="header_mainNav">
-                    <ul class="horizontalList">
-                        <li class="horizontalListItem">
-                            <a href="./index.html">Home</a>
-                        </li>
-                        <li class="horizontalListItem">
-                            <a href="#">New in</a>
-                        </li>
-                        <li class="horizontalListItem">
-                            <a href="#">Collections</a>
-                        </li>
-                        <li class="horizontalListItem">
-                            <a href="#">About Us</a>
-                        </li>
-                    </ul>
-                </nav>
+        <section class="header-page">
+            <div class="header-logo">
+                <img src="./assets/Asset%202@3x.png" 
+                     alt="MANGATA & GALLO"
+                     width="335"
+                     height="35">
             </div>
-            </section>
+            <nav class="hamburger-menu">
+                <div class="hamburger-icon"></div>
+                <div class="hamburger-icon"></div>
+                <div class="hamburger-icon"></div>
+                <ul class="menu-items">
+                    <li><a href="./index.html" class="menu-list-item">Home</a></li>
+                    <li><a href="#" class="menu-list-item">New in</a></li>
+                    <li><a href="#" class="menu-list-item">Collections</a></li>
+                    <li><a href="#" class="menu-list-item">About Us</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
 
     <main>
         <section class="main">
-            <div class="main_wrapper">
-                <div class="main_text">
-                    <h1>New in Mangata & GALLO <br> collection</h1>
-                </div>
-                <div class="productListWrapper">
-                    <ul class="productList">
-                        <li class="productList__item">
-                            <img src="https://i.pinimg.com/736x/b8/b4/20/b8b420ea258e402960d1e37cb580c5c8.jpg"
-                                 alt="diamond"
-                                 width="250"
-                                 height="250"
-                                 >
-                        </li>
-                        <li class="productList__item">
-                            <img src="https://i.pinimg.com/736x/f6/0b/a2/f60ba2aebb433f19b585d2ab12f6177a.jpg" 
-                                 alt="gold"
-                                 width="250"
-                                 height="250"
-                                 >
-                        </li>
-                        <li class="productList__item">
-                            <img src="https://makarojewelry.com/cdn/shop/files/Talisman_colorfulagate_necklace_new_bg_1600x.png?v=1722425166"
-                                 alt="gold"
-                                 width="250"
-                                 height="250"
-                                 >   
-                         </li>
-                    </ul>
-                </div>
-            </div>
+            <h1 class="title">New in collection</h1>
+                    <div class="main-background-image"></div>
+                        <div class="main-button">
+                            <a href="#" class="link">Shop Now</a>
+                            <a href="#" class="link">Learn More</a>
+                        </div>
         </section>
+        <section class="main-list">
+            <div class="product-list-wrapper">
+                <ul class="product-list">
+                    <li class="product-list-item">
+                        <img src="https://wishyouwerenaked.com/cdn/shop/files/DSC07132_1080x.jpg?v=1716785665"
+                             alt="diamond"
+                             width="171.8"
+                             height="171.8"
+                             >
+                             <p class="product-item-text">LANCE RING</p>
+                             <p class="product-item-price">$150 USD</p>
+                    </li>
+                    <li class="product-list-item">
+                        <img src="https://wishyouwerenaked.com/cdn/shop/files/DSC07284_720x.jpg?v=1716785171"
+                             alt="gold"
+                             width="171.8"
+                             height="171.8"
+                             >
+                             <p class="product-item-text">FLOR NECKLACES</p>
+                             <p class="product-item-price">$150 USD</p>
+
+                    </li>
+                    <li class="product-list-item">
+                        <img src="https://wishyouwerenaked.com/cdn/shop/files/DSC072261_720x.jpg?v=1716787484" 
+                             alt="gold"
+                             width="171.8"
+                             height="171.8"
+                             >
+                             <p class="product-item-text">TRIS EARRINGS</p>
+                             <p class="product-item-price">$150 USD</p>
+
+                    </li>
+                    <li class="product-list-item">
+                        <img src="https://wishyouwerenaked.com/cdn/shop/files/DSC07189_720x.jpg?v=1716784627"
+                             alt="gold"
+                             width="171.8"
+                             height="171.8"
+                             >   
+                            <p class="product-item-text">WILL RING</p>
+                            <p class="product-item-price">$150 USD</p>
+
+                     </li>
+                     <li class="product-list-item">
+                        <img src="https://wishyouwerenaked.com/cdn/shop/files/DSC07153_720x.jpg?v=1716785902"
+                             alt="gold"
+                             width="171.8"
+                             height="171.8"
+                             >
+                             <p class="product-item-text">JOAN RING</p>
+                             <p class="product-item-price">$150 USD</p>
+                     </li>
+                </ul>
+            </div>
+        </div>
+    </section>
         <section class="about">
-            <div class="about_wrapper">
-                <div class="about_text">
-                    <h2>About Us</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
-                        A facilis beatae, iure culpa atque nihil pariatur quo et impedit adipisci, ducimus, odit maiores.<br>
-                        Vitae necessitatibus labore alias voluptatum ipsa in.</p>
+                <div class="about-background-image"></div>
+                <div class="about-background">
+                    <h2 class="title">About Us</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                                A facilis beatae, iure culpa atque nihil pariatur quo et impedit adipisci, ducimus, odit maiores.<br>
+                                Vitae necessitatibus labore alias voluptatum ipsa in.
+                    </p>
                 </div>
-            </div>
-        </section>
-        <section class="contact">
-            <div class="contact_wrapper">
-                <div class="contact_text">
-                    <h2>Visit our MANGATA & GALLO stores in Cologne, Munich and Frankfurt!</h2>
-                    <img src="https://icrush.de/wp-content/uploads/2022/05/ICRUSH_Store_Munich.jpg"
-                         alt="store"
-                         width="700"
-                         height="300">
-                </div>
-            </div>
         </section>
     </main>
+
     <footer>
-        <div class="footer">
-            <div class="footer_wrapper">
-                <div class="footer_logo">
-                    <img src="./assets/Asset%202@3x.png" 
-                         alt="Small Logo"
-                         width="250"
-                         height="40"
-                         />
-                </div>
-            </div>
-                <div class="footer_text">
-                        <p>Copyright © 2024 MANGATA & GALLO</p>
-                </div>
-        </div>
+        <section class="footer">
+            <div class="footer-logo"></div>
+            <ul class="footer-site-nav">
+                <li><a href="#" class="link">Home</a></li>
+                <li><a href="#" class="link">About</a></li>
+                <li><a href="#" class="link">New in</a></li>
+                <li><a href="#" class="link">Collections</a></li>
+                <li><a href="#" class="link">About Us</a></li>
+            </ul>
+            <p class="text">Copyright © 2024 MANGATA & GALLO</p>
+        </section>
     </footer>
+    <script defer src="css/script.js"></script>
 </body>
 </html>
