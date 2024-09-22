@@ -38,8 +38,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload only the content of the Week-3 folder
-          path: './Week-3'
+          path: './HTML-and-CSS-in-depth/Week-3'
 
       - name: Deploy to GitHub Pages
         id: deployment
