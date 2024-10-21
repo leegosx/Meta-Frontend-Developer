@@ -1,8 +1,11 @@
-function App() {
+import Wrapper from "./components/Wrapper";
+import Screen from "./components/Screen";
+const App = () => {
   return (
-    <div className="App">
-    </div>
+    <Wrapper>
+      <Screen />
+    </Wrapper>
   );
-}
+};
 
 export default App;
