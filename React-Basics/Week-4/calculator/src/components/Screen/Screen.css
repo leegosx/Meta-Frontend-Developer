@@ -1,0 +1,14 @@
+.screen {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 10px; /* Adds a 10px margin below the element */
+    padding: 0 10px; /* Adds 0px padding on the top and bottom, and 10px padding on the left and right */
+    background-color: #4357692d;
+    border-radius: 10px;
+    display: flex; /* Makes the element a flex container, enabling Flexbox layout */
+    align-items: center; /* Vertically centers the content inside the flex container */
+    justify-content: flex-end; /* Horizontally aligns the content to the right (end of the container) */
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box; /* Ensures that padding and border are included in the element's total width and height */
+}
